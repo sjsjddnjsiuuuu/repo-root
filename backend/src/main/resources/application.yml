@@ -51,7 +51,7 @@ spring:
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
     hibernate:
-      ddl-auto: validate # ??? validate ??
+      ddl-auto: update # ??? validate ??
     properties:
       hibernate:
         show_sql: false
